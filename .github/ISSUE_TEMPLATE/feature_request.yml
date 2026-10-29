@@ -1,0 +1,19 @@
+name: Feature request
+description: Suggest a new layout, workflow, platform, or capability.
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Please describe the real deck-making situation behind the request.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the feature, layout, component, or workflow you want.
+    validations:
+      required: true
